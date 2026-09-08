@@ -1,51 +1,45 @@
-# 🏥 Sistema de Gestión de Citas de Fisioterapia
-> **Análisis, Diseño HCI y Prototipado de Interfaz**
+# 🏥 Sistema de Gestión de Citas — Análisis, Diseño HCI y Prototipado
 
-Proyecto enfocado en la reingeniería, optimización de procesos y diseño de interacción humano-computador (HCI) para la gestión operativa de citas médicas en un centro de fisioterapia.
+Proyecto de análisis, optimización y prototipado de interfaz para el sistema de gestión de citas de fisioterapia, aplicando principios de Interacción Humano-Computador (HCI).
 
 ---
 
-## 👥 Equipo de Trabajo y Distribución de Roles
+## 👥 Equipo y Distribución de Actividades
 
-| Estudiante | Actividades Asignadas | Entregables Clave |
+| Estudiante | Rol / Actividad | Entregable Principal |
 | :--- | :--- | :--- |
-| **Elizabeth De la Cruz** | **Actividades 1 & 2** | • Flujo AS-IS (Diagrama Mermaid)<br>• Matriz de Puntos de Fricción<br>• Matriz de Usuarios y Necesidades |
-| **Verónica Jaque** | **Actividades 3 & 4** | • Matriz de Decisión de Soluciones<br>• Operacionalización de Eficiencia<br>• Fórmulas e Indicadores Cuantitativos |
-| **Andrew Lara** | **Actividad 5 & Wireflow** | • Metáforas de Interfaz (HCI)<br>• Análisis de Usabilidad y Reglas<br>• Arquitectura del Wireflow |
-| **Sebastián Vaca** | **Actividades 6 & 7** | • Prototipo Interactivo (Figma/Penpot)<br>• Criterios WCAG y Estados UI<br>• Protocolo de Validación con Usuarios |
+| **Elizabeth De la Cruz** | Actividad 1 & 2 | Diagrama AS-IS, Matriz de Fricciones, Matriz de Necesidades |
+| **Verónica Jaque** | Actividad 3 & 4 | Matriz de Decisión, Operacionalización de Indicadores |
+| **Andrew Lara** | Actividad 5 | Metáforas HCI, Fundamentos de Diseño, Wireflow |
+| **Sebastián Vaca** | Actividad 6 & 7 | Prototipo Interactivos (Figma/Penpot), Protocolo de Validación |
 
 ---
 
-## 📋 Detalle de Actividades y Entregables
+## 📋 Detalle de Entregables por Actividad
 
----
+### 📌 Elizabeth De la Cruz
+#### Actividad 1: Análisis del Proceso Actual (AS-IS)
+Estudio del flujo actual de reserva sin proponer soluciones técnicas aún.
 
-### 📌 Actividad 1: Análisis del Proceso Actual (AS-IS)
+* **Flujo Operativo Actual:**
+  1. Paciente solicita cita vía WhatsApp.
+  2. Personal administrativo revisa el mensaje.
+  3. Consulta la agenda física.
+  4. Revisa disponibilidad global.
+  5. Coordina con el fisioterapeuta.
+  6. Registra la cita manualmente.
+  7. Confirma al paciente vía WhatsApp.
+  8. Procesamiento manual de cambios o cancelaciones.
 
-Evaluación del flujo de trabajo operativo previo a la intervención tecnológica para identificar ineficiencias en la reserva de citas.
-
-#### Flujo de Trabajo Operativo (AS-IS)
-1. **Solicitud:** El paciente envía un mensaje por WhatsApp.
-2. **Revisión:** El personal administrativo lee la solicitud.
-3. **Consulta:** Se busca la disponibilidad en la agenda física en papel.
-4. **Coordinación:** Se valida el horario directamente con el fisioterapeuta.
-5. **Registro:** Se escribe manualmente la cita en el cuaderno de agenda.
-6. **Confirmación:** Se responde al paciente vía WhatsApp.
-7. **Excepciones:** Los cambios y cancelaciones se gestionan manualmente por chat.
-
-#### Diagrama de Flujo AS-IS
+* **Identificación de Actores:** Paciente, Personal Administrativo, Fisioterapeuta y Administrador.
+* **Información Requerida:** Datos del paciente, Fisioterapeuta asignado, Fecha, Hora, Estado de disponibilidad y Estado de la cita.
 
 ```mermaid
 graph TD
-    A[Paciente solicita cita vía WhatsApp] --> B[Personal administrativo revisa mensaje]
+    A[Paciente solicita cita via WhatsApp] --> B[Personal revisa mensaje]
     B --> C[Consulta agenda física]
-    C --> D{¿Existe disponibilidad?}
-    
+    C --> D{¿Hay disponibilidad?}
     D -- Sí --> E[Coordina con Fisioterapeuta]
-    E --> F[Registra cita en agenda física ✍️]
-    F --> G[Envia confirmación por WhatsApp ⏳]
-    
-    D -- No --> H[Notifica indisponibilidad al paciente]
-
-    classDef friction fill:#ffdddd,stroke:#ff0000,stroke-width:2px;
-    class F,G friction;
+    E --> F[Registra cita manualmente ✍️]
+    F --> G[Confirma por WhatsApp ⏳]
+    D -- No --> H[Notifica indisponibilidad]
