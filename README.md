@@ -15,22 +15,6 @@ Proyecto de análisis, optimización y prototipado de interfaz para el sistema d
 
 ---
 
-## 📋 Detalle de Entregables por Actividad
-
-### 📌 Elizabeth De la Cruz
-#### Actividad 1: Análisis del Proceso Actual (AS-IS)
-Estudio del flujo actual de reserva sin proponer soluciones técnicas aún.
-
-* **Flujo Operativo Actual:**
-  1. Paciente solicita cita vía WhatsApp.
-  2. Personal administrativo revisa el mensaje.
-  3. Consulta la agenda física.
-  4. Revisa disponibilidad global.
-  5. Coordina con el fisioterapeuta.
-  6. Registra la cita manualmente.
-  7. Confirma al paciente vía WhatsApp.
-  8. Procesamiento manual de cambios o cancelaciones.
-
 * **Identificación de Actores:** Paciente, Personal Administrativo, Fisioterapeuta y Administrador.
 * **Información Requerida:** Datos del paciente, Fisioterapeuta asignado, Fecha, Hora, Estado de disponibilidad y Estado de la cita.
 
