@@ -40,7 +40,7 @@ Se desarrolló un prototipo interactivo de la aplicación web con el objetivo de
 
 ### 🔗 Acceso al prototipo
 
-[![Figma](https://img.shields.io/badge/Figma-Prototipo-000000?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/make/aKeX0RpcoIDoCbMUTojEhz/Prototipo-web-de-citas?p=f&t=MRvE37sOPQZfsP0i-0)(https://www.figma.com/make/m3GEL95cTFQDMWCv6SDo7P/Prototipo-web-de-citas?t=joW9vl3cCfyKkIIp-0)
+[![Figma](https://img.shields.io/badge/Figma-Prototipo-000000?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/make/m3GEL95cTFQDMWCv6SDo7P/Prototipo-web-de-citas?t=joW9vl3cCfyKkIIp-0)
 
 👉 [Abrir prototipo en Figma](https://www.figma.com/make/m3GEL95cTFQDMWCv6SDo7P/Prototipo-web-de-citas?t=joW9vl3cCfyKkIIp-0)
 
