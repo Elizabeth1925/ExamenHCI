@@ -11,7 +11,7 @@ Este repositorio contiene la propuesta de reingeniería de interfaz, interacció
 * **Asignatura:** Interacción Humano Computador (IHC)
 * **Docente:** Ing. Caiza Caizabuano José Rubén
 * **Institución:** Universidad Técnica de Ambato — Facultad de Ingeniería en Sistemas, Electrónica e Industrial (FISEI)
-* **Semestre / Paralelo:** Quinto "B" (Carrera de Tecnologías de la Información)
+* **Semestre / Paralelo:** Quinto "B" (Carrera de Software)
 ---
 
 ## 🎯 Objetivos del Proyecto
