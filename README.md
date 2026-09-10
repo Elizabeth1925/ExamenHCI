@@ -40,7 +40,10 @@ Se desarrolló un prototipo interactivo de la aplicación web con el objetivo de
 
 ### 🔗 Acceso al prototipo
 
-[![Figma](https://img.shields.io/badge/Figma-Prototipo-000000?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/make/aKeX0RpcoIDoCbMUTojEhz/Prototipo-web-de-citas?p=f&t=MRvE37sOPQZfsP0i-0)
+[![Figma](https://img.shields.io/badge/Figma-Prototipo-000000?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/make/aKeX0RpcoIDoCbMUTojEhz/Prototipo-web-de-citas?p=f&t=MRvE37sOPQZfsP0i-0)(https://www.figma.com/make/m3GEL95cTFQDMWCv6SDo7P/Prototipo-web-de-citas?t=joW9vl3cCfyKkIIp-0)
+
+👉 [Abrir prototipo en Figma](https://www.figma.com/make/m3GEL95cTFQDMWCv6SDo7P/Prototipo-web-de-citas?t=joW9vl3cCfyKkIIp-0)
+
 
 **Herramienta:** Figma  
 **Tipo:** Prototipo web interactivo
@@ -100,13 +103,11 @@ Para mantener coherencia con el modelo mental del usuario se implementaron 3 met
 
 | Indicador | Definición / Fórmula | Método de Medición |
 | :--- | :--- | :--- |
-| **Tiempo Administrativo Activo** | $\sum 	ext{Intervalos de trabajo activo del personal}$ | Cronometraje directo por tarea sin contar esperas pasivas. |
-| **Tiempo Total de Operación** | $T_{	ext{final}} - T_{	ext{inicial}}$ | Marca de tiempo desde inicio del paciente hasta confirmación. |
-| **Acciones del Usuario / Personal** | $\sum (	ext{Clics} + 	ext{Teclas} + 	ext{Pasos})$ | Conteo sistemático de interacciones en prototipo. |
-| **Tasa de Intervención Humana** | $\left( rac{	ext{Operaciones con intervención personal}}{	ext{Total de operaciones}} 
-ight) 	imes 100$ | Registro binario (Sí/No) por sesión de uso. |
-| **Tasa de Éxito en Tareas** | $\left( rac{	ext{Tareas completadas sin error crítico}}{	ext{Total de intentos}} 
-ight) 	imes 100$ | Comprobación de estado final correcto. |
+| **Tiempo Administrativo Activo** | $\sum \text{Intervalos de trabajo activo del personal}$ | Cronometraje directo por tarea sin contar esperas pasivas. |
+| **Tiempo Total de Operación** | $T_{\text{final}} - T_{\text{inicial}}$ | Marca de tiempo desde inicio del paciente hasta confirmación. |
+| **Acciones del Usuario / Personal** | $\sum (\text{Clics} + \text{Teclas} + \text{Pasos})$ | Conteo sistemático de interacciones en prototipo. |
+| **Tasa de Intervención Humana** | $\left( \frac{\text{Operaciones con intervención personal}}{\text{Total de operaciones}} \right) \times 100$ | Registro binario (Sí/No) por sesión de uso. |
+| **Tasa de Éxito en Tareas** | $\left( \frac{\text{Tareas completadas sin error crítico}}{\text{Total de intentos}} \right) \times 100$ | Comprobación de estado final correcto. |
 
 ---
 
@@ -159,5 +160,5 @@ Se formuló un protocolo de pruebas de usabilidad empírica con **3 participante
 ---
 *Universidad Técnica de Ambato - Facultad de Ingeniería en Sistemas, Electrónica e Industrial - 2026*
 
-👉 [Abrir prototipo en Figma](https://www.figma.com/make/aKeX0RpcoIDoCbMUTojEhz/Prototipo-web-de-citas?p=f&t=MRvE37sOPQZfsP0i-0)
+
 
