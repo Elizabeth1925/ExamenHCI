@@ -134,21 +134,6 @@ Se formuló un protocolo de pruebas de usabilidad empírica con **3 participante
 
 ---
 
-## 📄 Estructura del Repositorio
-
-```text
-.
-├── README.md                              # Documentación principal del proyecto
-├── docs/
-│   └── Informe_GABOS_Final_Completado.pdf # Informe académico en PDF completo
-└── assets/
-    ├── flow-asis.png                      # Diagrama del proceso actual AS-IS
-    ├── flow-tobe.png                      # Diagrama del proceso propuesto (Híbrido)
-    └── prototype-screens/                 # Capturas del prototipo de alta fidelidad
-```
-
----
-
 ## 💡 Conclusión y Recomendaciones
 
 * **Conclusión Principal:** La sustitución de la agenda física por un **mecanismo híbrido** centralizado reduce la sobrecarga cognitiva del personal administrativo, elimina errores de transcripción manual y provee transparencia inmediata al paciente sobre la disponibilidad del centro.
